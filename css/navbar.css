@@ -1,0 +1,25 @@
+.navbar-brand {
+  margin: 2px 65px 0 0;
+}
+
+.navbar {
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar.is-transparent {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button.navbar-store {
+  background-image: url("../../images/googleplay.png");
+  width: 140px;
+  height: 40px;
+  background-size: 100%;
+  border: 0;
+}
+/*# sourceMappingURL=navbar.css.map */

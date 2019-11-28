@@ -1,0 +1,44 @@
+//$section-padding: 3rem 7rem;
+@import "variables.scss";
+
+.benefits {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.benefits-title {
+    text-align: center;
+}
+
+span.icon {
+    color: $primary;
+    font-size: 2.5rem;
+    align-items: end;
+}
+
+.benefits-center-img {
+    margin-top: 40px;
+    img {
+        height: 180px;
+    }
+}
+
+.fa-ul {
+    li {
+        display: flex;
+        margin-top: 50px;
+        height: 48px;
+
+        h2 {
+            font-size: 1.5rem;
+            margin-left: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+section.supply-chain {
+    .supply-chain-img {
+        width: 300px;
+    }
+}
